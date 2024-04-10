@@ -1,0 +1,12 @@
+"Phrases"
+{
+	"PrintPouncesToClient"
+	{
+		"chi"		"这是一个测试"
+	}
+
+	"PrintTopPouncers"
+	{
+		"chi"		"这是一个测试"
+	}
+}

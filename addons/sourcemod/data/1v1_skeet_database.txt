@@ -1,0 +1,75 @@
+"skeetdata"
+{
+	"data"
+	{
+		"STEAM_1:1:439314005"
+		{
+			"skeet"		"17"
+			"Name"		"早濑优香"
+		}
+		"STEAM_1:0:614602921"
+		{
+			"skeet"		"83"
+			"Name"		"秋山澪"
+		}
+		"STEAM_1:0:613634804"
+		{
+			"skeet"		"4"
+			"Name"		"七五"
+		}
+		"STEAM_1:0:769323586"
+		{
+			"skeet"		"2"
+			"Name"		"伊万里胡桃"
+		}
+		"STEAM_1:1:550044762"
+		{
+			"skeet"		"20"
+			"Name"		"夏洛特"
+		}
+		"STEAM_1:0:545435343"
+		{
+			"skeet"		"3"
+			"Name"		"蒂枫"
+		}
+		"STEAM_1:0:542821326"
+		{
+			"skeet"		"33"
+			"Name"		"杨丞琳"
+		}
+		"STEAM_1:0:714236517"
+		{
+			"skeet"		"30"
+			"Name"		"凌轩"
+		}
+		"STEAM_1:1:616797361"
+		{
+			"skeet"		"10"
+			"Name"		"秋风挽落叶"
+		}
+		"STEAM_1:1:567395570"
+		{
+			"skeet"		"1"
+			"Name"		"Lazy_bone"
+		}
+		"STEAM_1:1:184661839"
+		{
+			"skeet"		"14"
+			"Name"		"Zinfandel"
+		}
+		"STEAM_1:1:240645475"
+		{
+			"skeet"		"9"
+			"Name"		"秋秋秋"
+		}
+		"STEAM_1:0:773264902"
+		{
+			"skeet"		"3"
+			"Name"		"liangban_awa"
+		}
+	}
+	"info"
+	{
+		"count"		"13"
+	}
+}

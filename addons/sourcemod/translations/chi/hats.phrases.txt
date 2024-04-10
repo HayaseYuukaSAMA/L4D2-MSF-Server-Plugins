@@ -1,0 +1,99 @@
+"Phrases"
+{
+	"Hat_Wearing"
+	{
+		"#format"		"{1:s}"
+		"chi"			"您正在配戴{green}{1}{default}。( 指令: !hat | !hatoff | !hatshow)"
+	}
+	"Hat_Changed"
+	{
+		"#format"		"{1:s}"
+		"chi"			"您正在配戴{green}{1}{default}。"
+	}
+	"Hat_No_Index"
+	{
+		"#format"		"{1:d}{2:d}"
+		"chi"			"无法找到编号为{green}{1}{default}的帽子。 (应在{green}1{default}至{green}{2}{default}内)"
+	}
+	"Hat_Not_Found"
+	{
+		"#format"		"{1:s}"
+		"chi"			"无法找到帽子{green}{1}{default}。"
+	}
+	"Hat_Invalid"
+	{
+		"chi"			"无效的玩家。"
+	}
+	"Hat_Unblocked"
+	{
+		"#format"		"{1:s}"
+		"chi"			"已允许配戴 {green}{1}{default}."
+	}
+	"Hat_Blocked"
+	{
+		"#format"		"{1:s}"
+		"chi"			"已停用配戴 {green}{1}{default}."
+	}
+	"Hat_View"
+	{
+		"#format"		"{1:s}"
+		"chi"			"第一人称帽子视角 {green}{1}{default}."
+	}
+	"Hat_Ability"
+	{
+		"#format"		"{1:s}"
+		"chi"			"你{green}{1}{default}了帽子功能"
+	}
+	"Hat_On"
+	{
+		"chi"			"启用"
+	}
+	"Hat_Off"
+	{
+		"chi"			"禁用"
+	}
+	"Hat_Menu_Title"
+	{
+		"chi"			"选择你的帽子："
+	}
+	"Hat_Missing"
+	{
+		"chi"			"你未戴帽子！"
+	}
+
+
+	"SYSTEM"
+	{
+		"chi"			"{lightgreen}[帽子]{default} "
+	}
+
+	"NO_RIGHT_NOW"
+	{
+		"chi"			"暂时无法使用。 "
+	}
+
+	"ADMIN_DISABLE_HAT"
+	{
+		"chi"			"选择玩家停用帽子:"
+	}
+
+	"ADMIN_CHANGE_HAT"
+	{
+		"chi"			"选择玩家更换帽子:"
+	}
+
+	"SET_ANGLE"
+	{
+		"chi"			"设置帽子角度:"
+	}
+
+	"SET_POSITION"
+	{
+		"chi"			"设置帽子位置:"
+	}
+
+	"SET_SIZE"
+	{
+		"chi"			"设置帽子尺寸:"
+	}
+}

@@ -1,0 +1,83 @@
+"Phrases"
+{
+	"CA Admin"
+	{
+		"en"			"Admin"
+		"chi"			"管理员"
+	}
+	"CA Public"
+	{
+		"en"			"Player"
+		"chi"			"玩家"
+	}
+	"LAN City Desc"
+	{
+		"en"			"an IP Address"
+		"chi"			"一个ip地址"
+	}
+	"LAN Region Desc"
+	{
+		"en"			"a Local Subnet"
+		"chi"			"一个本地子网"
+	}
+	"LAN Country Desc"
+	{
+		"en"			"a Local Area Network"
+		"chi"			"一个局域网"
+	}
+	
+	"LAN Country Short"
+	{
+		"en"			"LN"
+		"chi"			"本地子网"
+	}
+	
+	"LAN Country Short 3"
+	{
+		"en"			"LAN"
+		"chi"			"局域网"
+	}
+	
+	"Unknown City Desc"
+	{
+		"en"			"Somewhere"
+		"chi"			"某地"
+	}
+	"Unknown Region Desc"
+	{
+		"en"			"Unknown Region"
+		"chi"			"未知区域"
+	}
+	"Unknown Country Desc"
+	{
+		"en"			"Unknown Country"
+		"chi"			"未知国家"
+	}
+	
+	"Unknown Country Short"
+	{
+		"en"			"??"
+	}
+	
+	"Unknown Country Short 3"
+	{
+		"en"			"???"
+	}
+	"CA Connected"
+	{
+		"en"			"connected"
+		"chi"			"已连接"
+	}
+	"CA Disconnected"
+	{
+		"en"			"disconnected"
+		"chi"			"断开连接"
+	}
+	"CA Reason"
+	{
+		"en"			"reason"
+		"chi"			"原因"
+	}
+
+
+}

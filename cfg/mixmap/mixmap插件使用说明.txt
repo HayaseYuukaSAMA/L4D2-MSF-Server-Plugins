@@ -1,0 +1,30 @@
+版本：2.5
+
+新增功能：1、每章地图（campaign）最多重复出现两张地图（map），重复出现数量支持自定义
+	2、每章地图（campaign）结束后会自动进行当前图池的mixmap
+
+【相关指令】
+!mixmap		投票启用Mixmap（默认default地图池）
+!mixmap do	投票启用Mixmap（disorderdefault地图池）
+!mixmap of	投票启用Mixmap（allofficial地图池）
+!mixmap doof	投票启用Mixmap（disorderallofficial地图池）
+!mixmap ufo	投票启用Mixmap（unofficial地图池）
+!mixmap doufo	投票启用Mixmap（disorderunofficial地图池）
+!mixmap fo	投票启用Mixmap（firstofficial地图池）
+!mixmap so	投票启用Mixmap（secondofficial地图池）
+
+!stopmixmap	投票关闭Mixmap
+
+!maplist		查看Mixmap当前游玩的地图列表
+
+【地图池说明】
+1、默认default地图池：包含所有对抗官方图（剔除c9/c14/c13），m1随机抽取所有官方地图的map1，m2随机抽取所有官方地图的map2，以此类推，m5随机抽取所有官方地图的救援关（c6m3除外，c7m1作为m3抽取，）。
+
+2、allofficial地图池：包含所有对抗官方图（含c9/c14/c13），m1随机抽取所有官方地图的map1，m2随机抽取所有官方地图的map2，以此类推，m5随机抽取所有官方地图的救援关（c6m3除外，c9m2作为m2抽取，c7m1/c14m1作为m3抽取）。
+
+3、unofficial地图池：包含14张近年常用的三方对抗地图，抽取方式与默认地图池一致。
+①C2：重制、②C4：暴雨、③C5：蔓延、④C9：改航、⑤颤栗森林、⑥城市17、⑦喋血蜃楼、⑧活死人黎明、⑨绝处逢生、⑩绝命公路、⑪闪电突袭2、⑫亡灵区、⑬我恨山2、⑭迂回前进
+
+4、disorder地图池：在相应地图池的基础上，m2-m4的顺序打乱，即m2可能是某张地图的m3，m2可能是某张地图的m4，其他与原图池相同。（由于在中间关卡放置m1或者救援关会大大增加代码量，而且会出现换图不通畅的问题，所以m1和救援关的位置不做变更，需要在中间加入的请自行修改源码）
+
+5、[first/second]official地图池：包含一代/二代对抗官方图（剔除c9/c14/c13）m1随机抽取所有一/二代官方地图的map1，m2随机抽取所有一/二代官方地图的map2，以此类推，m5随机抽取所有一/二官方地图的救援关（c7m1作为m3抽取，）。

@@ -1,0 +1,19 @@
+"Phrases"
+{
+	"Title"
+	{
+		"chi"	"{blue}[{default}Tank 石头攻击方式{blue}]"
+	}
+	"Reload"
+	{
+		"chi"	"{olive}R键{default} = {blue}高抛砖{default}"
+	}
+	"Use"
+	{
+		"chi"	"{olive}E键{default} = {blue}低抛砖{default}"
+	}
+	"M2"
+	{
+		"chi"	"{olive}鼠标右键{default} = {blue}均衡砖{default}"
+	}
+}
