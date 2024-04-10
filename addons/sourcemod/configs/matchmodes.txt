@@ -1,0 +1,166 @@
+"MatchModes"
+{
+	"混野插件"
+	{
+	    "zonemodhy"
+		{
+			"name" "药抗"
+		}
+		"advancedhy"
+		{
+			"name" "进阶包抗"
+		}
+	    "zonemodhymod"
+		{
+			"name" "MOD药抗"
+		}
+		"advancedhymod"
+		{
+			"name" "MOD进阶包抗"
+		}
+	}
+	"ZoneMod 药抗插件"
+	{
+		"zonemod"
+		{
+			"name" "ZoneMod 2.8.9"
+		}
+		"zonemodold"
+		{
+			"name" "ZoneMod 1.9.16"
+		}
+		"zoneretro"
+		{
+			"name" "ZoneMod(仿1代)"
+		}
+		"zonemod4K"
+		{
+			"name" "ZoneMod(四控狂欢)"
+		}
+		"advanced"
+		{
+			"name" "ZoneMod(进阶包抗)"
+		}
+		"mod"
+		{
+			"name" "ZoneMod(不禁mod)"
+		}
+		"zm3v3"
+		{
+			"name" "3v3 ZoneMod"
+		}
+		"zm2v2"
+		{
+			"name" "2v2 ZoneMod"
+		}
+		"zm1v1"
+		{
+			"name" "1v1 ZoneMod"
+		}
+		"zm1v1nojockey"
+		{
+			"name" "1v1 ZoneMod(无猴)"
+		}
+	}
+	"NeoMod 药抗插件"
+	{
+		"neomod"
+		{
+			"name" "NeoMod Tourney 0.4a"
+		}
+	}
+	"NextMod 药抗插件"
+	{
+		"nextmod"
+		{
+			"name" "NextMod 1.0.5"
+		}
+		"nextmod3v3"
+		{
+			"name" "3v3 NextMod"
+		}
+		"nextmod2v2"
+		{
+			"name" "2v2 NextMod"
+		}
+		"nextmod1v1"
+		{
+			"name" "1v1 NextMod"
+		}
+	}
+	"Promod 药抗插件"
+	{
+		"pmelite"
+		{
+			"name" "Promod Elite 1.1"
+		}
+		"deadman"
+		{
+			"name" "Deadman 5.0.3"
+		}
+	}
+	"Acemod Revamped 药抗插件"
+	{
+		"acemodrv"
+		{
+			"name" "Acemod RV 1.3"
+		}
+		"amrv3v3"
+		{
+			"name" "3v3 Acemod RV"
+		}
+		"amrv2v2"
+		{
+			"name" "2v2 Acemod RV"
+		}
+		"amrv1v1"
+		{
+			"name" "1v1 Acemod RV"
+		}
+	}
+	"EQ 药抗插件"
+	{
+		"eq"
+		{
+			"name" "Equilibrium 3.0c"
+		}
+		"eq3v3"
+		{
+			"name" "3v3 EQ"
+		}
+		"eq2v2"
+		{
+			"name" "2v2 EQ"
+		}
+		"eq1v1"
+		{
+			"name" "1v1 EQ"
+		}
+	}
+	"Apex 药抗插件"
+	{
+		"apex"
+		{
+			"name" "Apex 1.1.2"
+		}
+	}
+	"ZonemodHunters 药抗插件"
+	{
+		"zonehunters"
+		{
+			"name" "ZoneHunters 2.8.9"
+		}
+		"zh3v3"
+		{
+			"name" "3v3 ZoneHunters"
+		}
+		"zh2v2"
+		{
+			"name" "2v2 ZoneHunters"
+		}
+		"zh1v1"
+		{
+			"name" "1v1 ZoneHunters"
+		}
+	}
+}

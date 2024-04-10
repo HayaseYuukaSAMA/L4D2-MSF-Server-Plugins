@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+
+<html>
+     <head>
+	     <title>TODO supply a title</title>
+		 <meta charset="UTF-8">
+		 <meta name="viewport" content="width=device-width, initial-scale=1">
+		 
+		 <style>
+		     body {
+			      background-image: url('https://picdl.sunbangyan.cn/2023/11/26/c4eb49841f44befc5a2a3cde5cf5fd1c.jpeg');
+				  background-repeat: no-repeat;
+				  background-size: 100% auto;
+			 }
+				  
+			 .content {
+				 color: #000000;
+				 text-align: center;
+				 font-size: 32px;
+			 }
+		 </style>
+	 </head>
+	 <body>
+	     <div class="content"><b></b></div>
+	 </body>
+</html>
