@@ -161,4 +161,16 @@
 			"message" "取消更改击杀HUD"
 		}
 	}
+
+	"加梯子插件（个人改插件用，不要投这个）"
+	{
+	"exec vote/ladder_on.cfg"
+		{
+			"message" "开启"
+		}
+	"exec vote/ladder_off.cfg"
+		{
+			"message" "关闭"
+		}
+	}
 }

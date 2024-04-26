@@ -29,6 +29,6 @@
 	
 	"Notify_TankhudUsage"
 	{
-		"chi"		"<{olive}HUD{default}> 聊天输入 {green}!tankhud{default} 切换 {red}Tank 面板开关"
+		"chi"		"<{olive}HUD{default}> 聊天输入 {green}!tankhud{default} 切换 {red}坦克面板开关"
 	}
 }

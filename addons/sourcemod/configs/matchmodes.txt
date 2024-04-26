@@ -2,9 +2,13 @@
 {
 	"混野插件"
 	{
+	    "riccamod"
+		{
+			"name" "riccamod药抗"
+		}
 	    "zonemodhy"
 		{
-			"name" "药抗"
+			"name" "zonemod药抗"
 		}
 		"advancedhy"
 		{
