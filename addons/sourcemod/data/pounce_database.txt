@@ -1,16 +1,9 @@
 "pouncedata"
 {
 	"data"
-<<<<<<< HEAD
-		"STEAM_1:1:439314005"
-		{
-			"pounce"		"16"
-=======
-	{
 		"STEAM_1:1:439314005"
 		{
 			"pounce"		"15"
->>>>>>> c9803fb0cc951a3caba5da78df126b8f14739005
 			"Name"		"早濑优香"
 		}
 	}
