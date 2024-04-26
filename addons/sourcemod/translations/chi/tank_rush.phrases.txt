@@ -2,7 +2,6 @@
 {
 	"Tag"
 	{
-<<<<<<< HEAD
 		"chi"		"{red}[{default}克局锁分{red}]"
 	}
 	"freeze"
@@ -12,17 +11,6 @@
 	"unfreeze"
 	{
 		"chi"		"{red}坦克 {default}死亡. {olive}解冻 {default}路程分!"
-=======
-		"chi"		"{red}[{default}NoTankRush{red}]"
-	}
-	"freeze"
-	{
-		"chi"		"{red}Tank {default}生成. {olive}冻结 {default}路程分!"
-	}
-	"unfreeze"
-	{
-		"chi"		"{red}Tank {default}死亡. {olive}解冻 {default}路程分!"
->>>>>>> c9803fb0cc951a3caba5da78df126b8f14739005
 	}
 	"saferoom"
 	{

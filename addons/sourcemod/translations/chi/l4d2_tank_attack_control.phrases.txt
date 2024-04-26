@@ -2,11 +2,7 @@
 {
 	"Title"
 	{
-<<<<<<< HEAD
 		"chi"	"{blue}[{default}坦克石头攻击方式{blue}]"
-=======
-		"chi"	"{blue}[{default}Tank 石头攻击方式{blue}]"
->>>>>>> c9803fb0cc951a3caba5da78df126b8f14739005
 	}
 	"Reload"
 	{
