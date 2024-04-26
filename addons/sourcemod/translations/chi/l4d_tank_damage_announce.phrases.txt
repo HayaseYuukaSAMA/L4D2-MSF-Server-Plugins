@@ -10,11 +10,19 @@
 	}
 	"HealthRemaining"
 	{
+<<<<<<< HEAD
 		"chi"		"{blue}坦克{default} ({olive}%s{default}) 剩余 {green}%d{default} 点血量"
 	}
 	"DealtToTank"
 	{
 		"chi"		"对{blue}坦克{default} ({olive}%s{default}) 造成的{blue}伤害"
+=======
+		"chi"		"{blue}Tank{default} ({olive}%s{default}) 剩余 {green}%d{default} 点血量"
+	}
+	"DealtToTank"
+	{
+		"chi"		"对{blue}Tank{default} ({olive}%s{default}) 造成的{blue}伤害"
+>>>>>>> c9803fb0cc951a3caba5da78df126b8f14739005
 	}
 	"PercentDamage"
 	{

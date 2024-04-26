@@ -2,6 +2,7 @@
 {
 	"混野插件"
 	{
+<<<<<<< HEAD
 	    "riccamod"
 		{
 			"name" "riccamod药抗"
@@ -9,6 +10,11 @@
 	    "zonemodhy"
 		{
 			"name" "zonemod药抗"
+=======
+	    "zonemodhy"
+		{
+			"name" "药抗"
+>>>>>>> c9803fb0cc951a3caba5da78df126b8f14739005
 		}
 		"advancedhy"
 		{

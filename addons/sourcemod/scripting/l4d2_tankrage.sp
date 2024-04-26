@@ -86,7 +86,11 @@ public void Event_TankSpawn(Event hEvent, char[] sEventName, bool dontBroadcast)
 
     if (!IsFakeClient(iTank))
     {
+<<<<<<< HEAD
         CPrintToChatAll("{red}[{default}反ai机制{red}] {default}生还者每回退{olive}%i{green}%% {default}路程, 坦克的控制权将会冻结{olive}%0.1f {green}秒{default}.", convarRageFlowPercent.IntValue, convarRageFreezeTime.FloatValue);
+=======
+        CPrintToChatAll("{red}[{default}Tank Rage{red}] {default}生还者每回退{olive}%i{green}%% {default}路程, 坦克的控制权将会冻结{olive}%0.1f {green}秒{default}.", convarRageFlowPercent.IntValue, convarRageFreezeTime.FloatValue);
+>>>>>>> c9803fb0cc951a3caba5da78df126b8f14739005
         hTankTimer = CreateTimer(0.1, timerTank, _, TIMER_REPEAT)
         bHaveHadFlowOrStaticTank = true;
     }

@@ -3,7 +3,11 @@
 	"Announce_Title"
 	{
 		"#format"	"{1:s}"
+<<<<<<< HEAD
 		"chi"		"[{green}!{default}] {blue}坦克 {default} ({olive}{1}{default}) {blue}数据{default}统计:"
+=======
+		"chi"		"[{green}!{default}] {blue}Tank {default} ({olive}{1}{default}) {blue}数据{default}统计:"
+>>>>>>> c9803fb0cc951a3caba5da78df126b8f14739005
 	}
 	
 	// CSayText appears to be async or via text stream?, whatever it costs random amount of time.
