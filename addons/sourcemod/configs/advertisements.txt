@@ -18,7 +18,7 @@
 	"4"
 	{
 		"type"		"S"
-		"text"		"插件相关：{GREEN}Zonemod=药抗  Advanced=进阶包抗"
+		"text"		"{GREEN}如果喜欢这个服务器的话，欢迎按H加入steam组！"
 	}
 	"5"
 	{
