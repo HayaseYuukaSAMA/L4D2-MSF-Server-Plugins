@@ -148,7 +148,7 @@ public void TankSpawn(Event event, const char[] name, bool dontBroadcast)
 	if (!tankInPlay) {
 		tankInPlay = true;
 		if (fSurvWaterSpeedDuringTank > 0.0) {
-			PrintToChatAll("\x04当坦克在场时,水中将不再减速.");
+			PrintToChatAll("{default}[{red}!{default}]当坦克在场时,水中将不再减速.");
 		}
 	}
 }
@@ -167,7 +167,7 @@ public Action Timer_CheckTank(Handle timer)
 	if (!tankclient || !IsPlayerAlive(tankclient)) {
 		tankInPlay = false;
 		if (fSurvWaterSpeedDuringTank > 0.0) {
-			PrintToChatAll("\x05水中减速恢复正常.");
+			PrintToChatAll("{default}[{green}!{default}]水中减速恢复正常.");
 		}
 	}
 

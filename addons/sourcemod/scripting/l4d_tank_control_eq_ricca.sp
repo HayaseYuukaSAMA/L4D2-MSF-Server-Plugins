@@ -406,7 +406,7 @@ public Action L4D_OnTryOfferingTankBot(int tank_index, bool &enterStatis)
                 continue;
 
             if (tank_index == i) CPrintToChat(i, "{red}<{default}坦克控制权{red}> {olive}二控{red}开始,AI坦克将会被处死,请注意控制权");
-            else CPrintToChat(i, "{red}<{default}坦克控制权{red}> {default}({green}%N{default})的{olive}二控{red}开始,AI坦克将会被处死,请注意控制权", tank_index);
+            else CPrintToChat(i, "{red}<{default}坦克控制权{red}> {default}({green}%N{default})的{olive}二控{red}开始,\nAI坦克将会被处死,请注意控制权", tank_index);
         }
         
         SetTankFrustration(tank_index, 100);
