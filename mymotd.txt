@@ -8,7 +8,7 @@
 		 
 		 <style>
 		     body {
-			      background-image: url('https://picdl.sunbangyan.cn/2023/11/26/c4eb49841f44befc5a2a3cde5cf5fd1c.jpeg');
+			      background-image: url('https://img2.imgtp.com/2024/04/27/1CI6kC9e.jpg');
 				  background-repeat: no-repeat;
 				  background-size: 100% auto;
 			 }

@@ -4,22 +4,26 @@
 	{
 	    "riccamod"
 		{
-			"name" "riccamod药抗"
+			"name" "RiccaMod药抗"
 		}
 	    "zonemodhy"
 		{
-			"name" "zonemod药抗"
+			"name" "ZoneMod药抗"
+		}
 	    "advancedhy"
 		{
 			"name" "进阶包抗"
 		}
+	}
+	"不禁MOD的混野插件"
+	{
 	    "zonemodhymod"
 		{
-			"name" "MOD药抗"
+			"name" "Zonemod药抗"
 		}
 		"advancedhymod"
 		{
-			"name" "MOD进阶包抗"
+			"name" "进阶包抗"
 		}
 	}
 	"ZoneMod 药抗插件"
@@ -43,6 +47,10 @@
 		"advanced"
 		{
 			"name" "ZoneMod(进阶包抗)"
+		}
+		"witchparty"
+		{
+			"name" "Zone-WitchParty"
 		}
 		"mod"
 		{
@@ -147,7 +155,7 @@
 			"name" "Apex 1.1.2"
 		}
 	}
-	"ZonemodHunters 药抗插件"
+	"ZoneHunters 药抗插件"
 	{
 		"zonehunters"
 		{

@@ -22,7 +22,7 @@ public void OnClientConnected(int client)
 {
 	if(!IsFakeClient(client))
 	{
-		PrintToChatAll("{blue} %N {green}正在进入牢房",client);
+		PrintToChatAll("\x03 %N \x05正在进入牢房",client);
 	}
 }
 

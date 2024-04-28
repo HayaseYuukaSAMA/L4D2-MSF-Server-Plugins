@@ -1,0 +1,15 @@
+"Phrases"
+{
+	"Tag"
+	{
+		"en"    "[{green}!{default}]"
+	}
+	"LoseFrustration"
+	{
+		"en"	"当生还者都在{olive}安全室{default}时，{red}坦克{default}仍然{green}失去控制权{default}."
+	}
+	"KeepFrustration"
+	{
+		"en"	"当生还者都在{olive}安全室{default}时，{red}坦克{default}不会{green}失去控制权{default}."
+	}
+}
