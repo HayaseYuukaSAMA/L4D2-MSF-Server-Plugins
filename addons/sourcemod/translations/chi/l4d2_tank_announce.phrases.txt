@@ -1,0 +1,15 @@
+"Phrases"
+{
+	"Tag"
+	{
+		"en"	"{red}[{default}!{red}]"
+	}
+	"Spawned"
+	{
+		"en"	"{olive}坦克 {default}已经出现! ({red}控制者: %s{default})"
+	}
+	"Spawned2"
+	{
+		"en"	"{olive}坦克 {default}已经出现!  ({red}控制者: %N{default})"
+	}
+}
