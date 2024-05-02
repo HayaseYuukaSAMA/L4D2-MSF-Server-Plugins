@@ -85,19 +85,15 @@ void UpdatePanel()
 	g_cvServerNamer.GetString(ServerName, sizeof(ServerName));
 	
 	l4d_ready_cfg_name.GetString(cfgName, sizeof(cfgName));
-	Format(ServerBuffer, sizeof(ServerBuffer), "%T", "PanelSlots", LANG_SERVER, ServerName, GetSeriousClientCount(), FindConVar("sv_maxplayers").IntValue, cfgName);
+	Format(ServerBuffer, sizeof(ServerBuffer), "▸ 服务器: %s \n▸ 人数: %d/%d\n▸ 比赛插件: %s", ServerName, GetSeriousClientCount(), FindConVar("sv_maxplayers").IntValue, cfgName);
 	menuPanel.DrawText(ServerBuffer);
 	
-	// Format will be defined by sm_datetime_format
-	FormatTime(ServerBuffer, sizeof(ServerBuffer), NULL_STRING);
-	Format(ServerBuffer, sizeof(ServerBuffer), "▸ %s", ServerBuffer);
-
+	FormatTime(ServerBuffer, sizeof(ServerBuffer), "▸ %m/%d/%Y - %I:%M%p");
 	Format(ServerBuffer, sizeof(ServerBuffer), "%s (%02d:%02d)", ServerBuffer, iPassTime / 60, iPassTime % 60);
 	menuPanel.DrawText(ServerBuffer);
 	
 	menuPanel.DrawText(" ");
-	Format(ServerBuffer, sizeof(ServerBuffer), "%T", "PanelCommands", LANG_SERVER);
-	menuPanel.DrawText(ServerBuffer);
+	menuPanel.DrawText("▸ 可用指令:");
 	menuPanel.DrawText(FooterGet(cmdFooter, curCmd));
 	menuPanel.DrawText(" ");
 	
@@ -120,7 +116,7 @@ void UpdatePanel()
 					case ReadyMode_PlayerReady:
 					{
 						if (!inLiveCountdown) PrintHintText(client, "%t", hintPhrase[isReady]);
-						Format(nameBuf, sizeof(nameBuf), "%s %s%s\n", readySymbol[isReady], nameBuf, IsPlayerAfk(client) ? " [AFK]" : "");
+						Format(nameBuf, sizeof(nameBuf), "%s %s%s\n", readySymbol[isReady], nameBuf, IsPlayerAfk(client) ? " [挂机]" : "");
 					}
 					case ReadyMode_AutoStart:
 					{
@@ -129,7 +125,7 @@ void UpdatePanel()
 					case ReadyMode_TeamReady:
 					{
 						if (!inLiveCountdown) PrintHintText(client, "%t", hintPhrase[type ? survivorReady : infectedReady]);
-						Format(nameBuf, sizeof(nameBuf), "%s%s\n", nameBuf, IsPlayerAfk(client) ? " [AFK]" : "");
+						Format(nameBuf, sizeof(nameBuf), "%s%s\n", nameBuf, IsPlayerAfk(client) ? " [挂机]" : "");
 					}
 				}
 				type ? StrCat(survivorBuffer, sizeof(survivorBuffer), nameBuf) : StrCat(infectedBuffer, sizeof(infectedBuffer), nameBuf);
@@ -161,7 +157,7 @@ void UpdatePanel()
 	{
 		survivorBuffer[bufLen] = '\0';
 		ReplaceString(survivorBuffer, sizeof(survivorBuffer), "#", "_");
-		Format(nameBuf, sizeof(nameBuf), "%T", "PanelSurvivors", LANG_SERVER, ++textCount, isTeamReadyMode ? teamReadySymbol[survivorReady] : "");
+		Format(nameBuf, sizeof(nameBuf), "->%d. 生还%s", ++textCount, isTeamReadyMode ? teamReadySymbol[survivorReady] : "");
 		menuPanel.DrawText(nameBuf);
 		menuPanel.DrawText(survivorBuffer);
 	}
@@ -171,7 +167,7 @@ void UpdatePanel()
 	{
 		infectedBuffer[bufLen] = '\0';
 		ReplaceString(infectedBuffer, sizeof(infectedBuffer), "#", "_");
-		Format(nameBuf, sizeof(nameBuf), "%T", "PanelInfected", LANG_SERVER, ++textCount, isTeamReadyMode ? teamReadySymbol[infectedReady] : "");
+		Format(nameBuf, sizeof(nameBuf), "->%d. 特感%s", ++textCount, isTeamReadyMode ? teamReadySymbol[infectedReady] : "");
 		menuPanel.DrawText(nameBuf);
 		menuPanel.DrawText(infectedBuffer);
 	}
@@ -184,7 +180,7 @@ void UpdatePanel()
 		if (bufLen != 0)
 		{
 			casterBuffer[bufLen] = '\0';
-			Format(nameBuf, sizeof(nameBuf), "%T", "PanelCaster", LANG_SERVER, ++textCount, casterCount > 1 ? "s" : "");
+			Format(nameBuf, sizeof(nameBuf), "->%d. 解说%s", ++textCount, casterCount > 1 ? "s" : "");
 			menuPanel.DrawText(nameBuf);
 			ReplaceString(casterBuffer, sizeof(casterBuffer), "#", "_", true);
 			menuPanel.DrawText(casterBuffer);
@@ -195,11 +191,11 @@ void UpdatePanel()
 	if (bufLen != 0)
 	{
 		specBuffer[bufLen] = '\0';
-		Format(nameBuf, sizeof(nameBuf), "%T", "PanelSpectator", LANG_SERVER, ++textCount, specCount > 1 ? "s" : "");
+		Format(nameBuf, sizeof(nameBuf), "->%d. 旁观%s", ++textCount, specCount > 1 ? "s" : "");
 		menuPanel.DrawText(nameBuf);
 		ReplaceString(specBuffer, sizeof(specBuffer), "#", "_");
 		if (playerCount > l4d_ready_max_players.IntValue && specCount - casterCount > 1)
-			FormatEx(specBuffer, sizeof(specBuffer), "%T", "PanelMany", LANG_SERVER, specCount - casterCount);
+			FormatEx(specBuffer, sizeof(specBuffer), "**吃瓜群众** (%d)", specCount - casterCount);
 		menuPanel.DrawText(specBuffer);
 	}
 

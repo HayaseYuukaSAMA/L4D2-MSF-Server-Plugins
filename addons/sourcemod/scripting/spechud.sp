@@ -575,7 +575,7 @@ void FillHeaderInfo(Panel hSpecHud)
 		iTickrate = RoundToNearest(1.0 / GetTickInterval());
 	
 	static char buf[64];
-	Format(buf, sizeof(buf), "服务器: %s [位置 %i/%i | %iT]", sHostname, GetRealClientCount(), iMaxPlayers, iTickrate);
+	Format(buf, sizeof(buf), "服务器: %s [人数 %i/%i | %iT]", sHostname, GetRealClientCount(), iMaxPlayers, iTickrate);
 	DrawPanelText(hSpecHud, buf);
 }
 
@@ -842,7 +842,7 @@ void FillScoreInfo(Panel hSpecHud)
 				FormatEx(info, sizeof(info), "> 血分: %i", healthBonus);
 				DrawPanelText(hSpecHud, info);
 				
-				FormatEx(info, sizeof(info), "> 路成分: %i", iMaxDistance);
+				FormatEx(info, sizeof(info), "> 路程分: %i", iMaxDistance);
 				//if (InSecondHalfOfRound())
 				//{
 				//	Format(info, sizeof(info), "%s | R#1: %i", info, iFirstHalfScore);
