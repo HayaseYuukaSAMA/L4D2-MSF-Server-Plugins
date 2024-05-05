@@ -19,15 +19,15 @@ void InitPanel()
 	if (cmdFooter == null)
 	{
 		cmdFooter = new Footer();
-		cmdFooter.Add("->1. !ready|!r / !unready|!nr");
-		cmdFooter.Add("->2. !slots #");
-		cmdFooter.Add("->3. !voteboss <tank> <witch>");
-		cmdFooter.Add("->4. !match / !rmatch");
-		cmdFooter.Add("->5. !show / !hide");
-		cmdFooter.Add("->6. !setscores <survs> <inf>");
-		cmdFooter.Add("->7. !lerps");
-		cmdFooter.Add("->8. !secondary");
-		cmdFooter.Add("->9. !forcestart / !fs");
+		cmdFooter.Add("->1. !slots 12 (更改人数)");
+		cmdFooter.Add("->2. !chmatch (更换插件)");
+		cmdFooter.Add("->3. !return (准备阶段回安全屋)");
+		cmdFooter.Add("->4. !mix (分队选人)");
+		cmdFooter.Add("->5. !mixmap (随机地图)");
+		cmdFooter.Add("->6. !tank (查看坦克路程)");
+		cmdFooter.Add("->7. !mixmap fo/so (随机一代/二代地图)");
+		cmdFooter.Add("->8. !health (分数)");
+		cmdFooter.Add("->9. !voteboss <Tank> <Witch> (设置BOSS路程)");
 	}
 	
 	curCmd = 0;
@@ -191,7 +191,7 @@ void UpdatePanel()
 	if (bufLen != 0)
 	{
 		specBuffer[bufLen] = '\0';
-		Format(nameBuf, sizeof(nameBuf), "->%d. 旁观%s", ++textCount, specCount > 1 ? "s" : "");
+		Format(nameBuf, sizeof(nameBuf), "->%d. 旁观%s", ++textCount, specCount > 1 ? "" : "");
 		menuPanel.DrawText(nameBuf);
 		ReplaceString(specBuffer, sizeof(specBuffer), "#", "_");
 		if (playerCount > l4d_ready_max_players.IntValue && specCount - casterCount > 1)

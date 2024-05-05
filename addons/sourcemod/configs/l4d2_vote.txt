@@ -171,6 +171,18 @@
 		}
 	}
 
+	"圣诞快乐"
+	{
+	"exec vote/christmas_on.cfg"
+		{
+			"message" "圣诞快乐"
+		}
+	"exec vote/christmas_on.cfg"
+		{
+			"message" "圣诞不快乐"
+		}
+	}
+
 	"加梯子插件（个人改插件用，不要投这个）"
 	{
 	"exec vote/ladder_on.cfg"

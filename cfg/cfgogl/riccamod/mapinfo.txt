@@ -653,7 +653,6 @@
 		"start_extra_dist"	"587.266541"
 		"end_point"			"-10784.895508 -4906.771973 318.224670"
 		"end_dist"			"403.989594"
-		"max_distance"		"500"
 		"tank_ban_flow"
 		{
 			"Ladders"
