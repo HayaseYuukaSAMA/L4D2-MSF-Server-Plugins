@@ -2300,16 +2300,50 @@
 		"end_dist"			"150.000000"
 		"max_distance"		"800"
 	}
-	"l4d2_ff04_plant"
+	"l4d2_ff01_woods"
 	{
-		"horde_limit"		"200"
 		"tank_ban_flow"
 		{
-			"1"
+			"Early"
+			{
+				"min"		"35"
+				"max"		"99"
+			}
+		}
+	}
+	"l4d2_ff03_highway"
+	{
+		"tank_ban_flow"
+		{
+			"Elevator"
+			{
+				"min"		"55"
+				"max"		"75"
+			}
+		}
+	}
+	"l4d2_ff04_plant"
+	{
+		"max_distance"		"600"
+		"horde_limit"		"150"
+		"tank_ban_flow"
+		{
+			"Alarm event"
 			{
 				"min"		"56"
 				"max"		"99"
 			}
+		}
+		"ItemLimits"
+		{
+			"pain_pills"	"3"
+		}
+	}
+	"l4d2_ff05_station"
+	{
+		"ItemLimits"
+		{
+			"pain_pills"	"4"
 		}
 	}
 	"uz_crash"
@@ -2691,6 +2725,7 @@
 			"pain_pills"    "5"
 		}
 	}
+}
 	"dcr_m1_hotel"
 	{
 		"start_point"		"427.606232 5739.467773 2926.982178"
@@ -2746,4 +2781,3 @@
 		"start_extra_dist"	"150.000000"
 		"end_dist"			"150.000000"
 	}
-}
