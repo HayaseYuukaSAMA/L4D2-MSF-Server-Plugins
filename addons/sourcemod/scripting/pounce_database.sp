@@ -12,7 +12,7 @@ enum struct CPlayerPounceData
 	int m_iPosition;
 }
 
-#define TOP_NUMBER 5
+#define TOP_NUMBER 9
 
 //globals
 ConVar hEnablePlugin;

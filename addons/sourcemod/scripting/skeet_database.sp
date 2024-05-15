@@ -13,7 +13,7 @@ enum struct CPlayerSkeetData
 	int m_iPosition;
 }
 
-#define TOP_NUMBER 5
+#define TOP_NUMBER 9
 
 ConVar hEnablePlugin, OneShotSkeet,hCvarAnnounce, g_hCvarMPGameMode,
 	g_hCvarModesTog, g_hCvarSurvivorRequired, g_hCvarAIHunter, g_hCvar1v1Separate;
