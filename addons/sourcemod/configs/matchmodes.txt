@@ -72,9 +72,20 @@
 		{
 			"name" "1v1 ZoneMod(无猴)"
 		}
+	}
+	"Zm1vN 药抗插件"
+	{
 		"zm1v4"
 		{
-			"name" "1v4 ZoneMod(coop)"
+			"name" "1v4"
+		}
+		"zm1v4hard"
+		{
+			"name" "1v4(困难)"
+		}
+		"zm1v4ht"
+		{
+			"name" "1v4 Hunter"
 		}
 	}
 	"NeoMod 药抗插件"
