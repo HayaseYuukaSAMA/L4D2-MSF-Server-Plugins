@@ -1,3 +1,5 @@
+(本人已退坑求生之路，所以这个插件包大概率是不会更新了)
+
 **Steam组:https://steamcommunity.com/groups/L4D2RiccaMod**
 
 这是一个简单的药抗服插件包,你只需将该插件包覆盖进**Sirplease的药抗插件包**(https://github.com/sirPlease/L4D2-Competitive-Rework) 即可使用。
@@ -14,4 +16,4 @@
 * **ZoneMod 1.9.16**
 * **ZoneMod 1v1 No Jockey**
 
-不定期更新，zzz……
+
