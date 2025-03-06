@@ -4,8 +4,8 @@
 	{
 		"STEAM_1:1:439314005"
 		{
-			"skeet"		"17"
-			"Name"		"早濑优香"
+			"skeet"		"1"
+			"Name"		"Nick"
 		}
 	}
 	"info"

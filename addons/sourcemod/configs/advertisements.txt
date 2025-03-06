@@ -13,181 +13,61 @@
 	"3"
 	{
 		"type"		"S"
-		"text"		"{LIGHTGREEN}生还者：为什么你就是不死！？    坦克：纳米坦克，小子"
+		"text"		"{GREEN}!vote{DEFAULT}可以{GREEN}投票回血，换三方图{DEFAULT}等"
 	}
 	"4"
 	{
 		"type"		"S"
-		"text"		"{GREEN}如果喜欢这个服务器的话，欢迎按H加入steam组！"
-	}
-	"5"
-	{
-		"type"		"S"
-		"text"		"{LIGHTGREEN}为什么没人来啊(恼)"
-	}
-	"6"
-	{
-		"type"		"S"
-		"text"		"{GREEN}!vote{DEFAULT}可以{GREEN}投票回血，换三方图{DEFAULT}等"
-	}
-	"7"
-	{
-		"type"		"S"
-		"text"		"{LIGHTGREEN}一位喷：为什么你就是不死！？    Hunter：打中我≠打满150血"
-	}
-	"8"
-	{
-		"type"		"S"
 		"text"		"{GREEN}!myfl <数字> {DEFAULT}可为自己增加{GREEN}指定延迟{DEFAULT}\n{GREEN}!ping{DEFAULT} 查看当前{GREEN}ping值"
 	}
-    "9"
-    {
-        "type"		"S"
-        "TEXT"		"{LIGHTGREEN}时间停止吧，你是多么的美丽"
-    }
-    "10"
+    "5"
     {
         "type"		"S"
         "TEXT"		"输入{GREEN}!h{DEFAULT}可以变成牢大（仅限准备阶段）"
     }
-    "11"
-    {
-        "type"		"S"
-        "TEXT"		"{LIGHTGREEN}Ciallo～(∠・ω< )⌒☆"
-    }
-    "12"
+    "6"
     {
         "type"		"S"
         "TEXT"		"本服支持{GREEN}!mix{DEFAULT}分队，{GREEN}!mixmap{DEFAULT}随机地图"
     }
-    "13"
-    {
-        "type"		"S"
-        "TEXT"		"{LIGHTGREEN}硬面浓汤双份蔬菜大蒜猪油全部加满！"
-    }
-    "14"
-    {
-        "type"		"S"
-        "TEXT"		"改lerp指令（按先后顺序）：{GREEN}cl_interp_ratio 0→cl_interp 0"
-    }
-    "15"
-    {
-        "type"		"S"
-        "TEXT"		"{LIGHTGREEN}我、我我我我我我……我想让你看我0721！"
-    }
-    "16"
+    "7"
     {
         "type"		"S"
         "TEXT"		"准备阶段对着墙同时按下{GREEN}空格+E{DEFAULT}会变成{LIGHTGREEN}蜘蛛侠"
     }
-    "17"
-    {
-        "type"		"S"
-        "TEXT"		"{LIGHTGREEN}疼痛疼痛快飞走啦~"
-    }
-    "18"
+    "8"
     {
         "type"		"S"
         "TEXT"		"旁观者可以输入{GREEN}!spechud{DEFAULT}打开旁观者面板"
     }
-    "19"
-    {
-        "type"		"S"
-        "TEXT"		"{GREEN}302683658{DEFAULT} 欢迎大家加群来玩！"
-    }
-    "20"
+    "9"
     {
         "type"		"S"
         "TEXT"		"{GREEN}!mixmap{DEFAULT} 随机所有官方图（不包括c9/c14/c13）\n{GREEN}!mixmap so{DEFAULT} 随机二代官方图"
     }
-    "21"
-    {
-        "type"		"S"
-        "TEXT"		"{LIGHTGREEN}月亮啊，这五百年也就你和吾没有变……"
-    }
-    "22"
+    "10"
     {
         "type"		"S"
         "TEXT"		"聊天框输入{GREEN}!chmatch{DEFAULT}可以更换插件"
     }
-    "23"
-    {
-        "type"		"S"
-        "TEXT"		"给萌新的一点建议：如果不知道对抗模式怎么玩的话，可以去哔哩哔哩搜索{GREEN}VTChina{DEFAULT}(求生之路对抗教程)"
-    }
-    "24"
+    "11"
     {
         "type"		"S"
         "TEXT"		"旁观占位不上怎么办？{GREEN}!kickspecs{DEFAULT}踢掉就行了"
     }
-    "25"
-    {
-        "type"		"S"
-        "TEXT"		"怎么哪里都有{LIGHTGREEN}柚子厨（恼）"
-    }
-    "26"
+    "12"
     {
         "type"		"S"
         "TEXT"		"突然看不见特感了？打开控制台分别输入{GREEN}record 1→stop{DEFAULT}即可"
     }
-    "27"
-    {
-        "type"		"S"
-        "TEXT"		"{LIGHTGREEN}噗悠悠~"
-    }
-    "28"
+    "13"
     {
         "type"		"S"
         "TEXT"		"有人挂机了怎么办，{GREEN}!vote{DEFAULT}移到旁观或者直接{GREEN}√√√X"
     }
-    "29"
+    "14"
     {
         "type"		"S"
-        "TEXT"		"{LIGHTGREEN}大骗子……你明明说会喜欢上我的，明明说只要相遇就会喜欢上我的……"
-    }
-    "30"
-    {
-        "type"		"S"
-        "TEXT"		"给萌新的一点建议：{GREEN}拿喷子就是负责带节奏的{DEFAULT}，你带不了节奏还是拿着冲锋枪老老实实{GREEN}跟在后面{DEFAULT}比较好"
-    }
-    "31"
-    {
-        "type"		"S"
-        "TEXT"		"本服的{GREEN}空爆排行{DEFAULT}和{GREEN}高扑次数排行{DEFAULT}仅为娱乐，并无其他用途"
-    }
-    "32"
-    {
-        "type"		"S"
-        "TEXT"		"给萌新的一点建议：{GREEN}坦克局{DEFAULT}的时候要尽快把{GREEN}口水{DEFAULT}换掉，因为口水对坦克来说是{GREEN}无用的"
-    }
-    "33"
-    {
-        "type"		"S"
-        "TEXT"		"药抗小知识:拿着药对着队友按{GREEN}R键{DEFAULT}即可递药"
-    }
-    "34"
-    {
-        "type"		"S"
-        "TEXT"		"给萌新的一点建议：{GREEN}口水{DEFAULT}是唯一一个{GREEN}没有控制能力{DEFAULT}的特感，所以要配合{GREEN}除坦克以外的特感{DEFAULT}才能打出伤害，且不能{GREEN}先手复活{DEFAULT}，否则很容易被秒"
-    }
-    "35"
-    {
-        "type"		"S"
-        "TEXT"		"{LIGHTGREEN}冲动消费禁止！消费要有计划才行！"
-    }
-    "36"
-    {
-        "type"		"S"
-        "TEXT"		"给萌新的一点建议：尽量不要拿着冲锋枪去越喷子的{GREEN}一号位{DEFAULT}，否则很容易出逝"
-    }
-    "37"
-    {
-        "type"		"S"
-        "TEXT"		"{LIGHTGREEN}秋山澪：猴子这种特感应该删了"
-    }
-    "38"
-    {
-        "type"		"S"
-        "TEXT"		"{LIGHTGREEN}这游戏的对抗模式非常好玩，里面的大佬也很友好，给我起了个可爱的外号叫傻逼"
+        "TEXT"		"小知识:拿着药对着队友按{GREEN}R键{DEFAULT}即可递药"
     }
 }

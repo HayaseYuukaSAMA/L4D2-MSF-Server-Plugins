@@ -1,40 +1,10 @@
 "MatchModes"
 {
-	"混野插件"
-	{
-	    "riccamod"
-		{
-			"name" "RiccaMod药抗"
-		}
-	    "zonemodhy"
-		{
-			"name" "ZoneMod药抗"
-		}
-	    "advancedhy"
-		{
-			"name" "进阶包抗"
-		}
-	}
-	"不禁MOD的混野插件"
-	{
-	    "zonemodhymod"
-		{
-			"name" "Zonemod药抗"
-		}
-		"advancedhymod"
-		{
-			"name" "进阶包抗"
-		}
-	}
 	"ZoneMod 药抗插件"
 	{
 		"zonemod"
 		{
 			"name" "ZoneMod 2.8.9"
-		}
-		"zonemodold"
-		{
-			"name" "ZoneMod 1.9.16"
 		}
 		"zoneretro"
 		{
@@ -51,10 +21,6 @@
 		"witchparty"
 		{
 			"name" "Zone-WitchParty"
-		}
-		"mod"
-		{
-			"name" "ZoneMod(不禁mod)"
 		}
 		"zm3v3"
 		{
@@ -78,14 +44,6 @@
 		"zm1v4"
 		{
 			"name" "1v4"
-		}
-		"zm1v4hard"
-		{
-			"name" "1v4(困难)"
-		}
-		"zm1v4ht"
-		{
-			"name" "1v4 Hunter"
 		}
 	}
 	"NeoMod 药抗插件"

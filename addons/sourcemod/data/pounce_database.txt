@@ -3,8 +3,8 @@
 	"data"
 		"STEAM_1:1:439314005"
 		{
-			"pounce"		"15"
-			"Name"		"早濑优香"
+			"pounce"		"1"
+			"Name"		"Nick"
 		}
 	}
 	"info"
