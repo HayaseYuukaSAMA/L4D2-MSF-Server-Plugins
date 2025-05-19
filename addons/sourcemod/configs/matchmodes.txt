@@ -22,6 +22,10 @@
 		{
 			"name" "Zone-WitchParty"
 		}
+		"zm1v4"
+		{
+			"name" "1v4 Zonemod(练习模式)"
+		}
 		"zm3v3"
 		{
 			"name" "3v3 ZoneMod"
@@ -37,13 +41,6 @@
 		"zm1v1nojockey"
 		{
 			"name" "1v1 ZoneMod(无猴)"
-		}
-	}
-	"Zm1vN 药抗插件"
-	{
-		"zm1v4"
-		{
-			"name" "1v4"
 		}
 	}
 	"NeoMod 药抗插件"

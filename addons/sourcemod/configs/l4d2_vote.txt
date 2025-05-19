@@ -8,7 +8,7 @@
 		}
 	}
 
-	"重置地图(注意：分数会清0！)"
+	"重置地图(注意：分数会清零！)"
 	{
 		"sm_restartmap"
 		{
@@ -147,28 +147,4 @@
 			"message" "Dead Center Rebirth-C1改：重生"
 		}
 	}
-	"更改击杀音效"
-	{
-	"exec vote/sound_on.cfg"
-		{
-			"message" "更改击杀音效"
-		}
-	"exec vote/sound_off.cfg"
-		{
-			"message" "取消更改击杀音效"
-		}
-	}
-
-	"更改击杀HUD"
-	{
-	"exec vote/killhud_on.cfg"
-		{
-			"message" "更改击杀HUD"
-		}
-	"exec vote/killhud_off.cfg"
-		{
-			"message" "取消更改击杀HUD"
-		}
-	}
-	
 }
